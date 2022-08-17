@@ -479,19 +479,25 @@
             <use href="./images/symbol-defs.svg#icon-close" class=""></use>
           </svg>
         </button>
-          <h4>Залиште свої дані, ми вам передзвонимо</h4>
-          <label for="name">Ім'я </label>
-          <input type="text" name="name" id="name">
+          <b class="text-form">Залиште свої дані, ми вам передзвонимо</b>
+          <label class="form-studio">Ім'я
 
-          <label for="tel">Телефон </label>
-          <input type="number" name="tel" id="tel">
+          <input type="text" name="name">
 
-          <label for="email">Ім'я </label>
-          <input type="email" name="email" id="email">
+          </label>
 
-          <label>Коментар </label>
-          <textarea></textarea>
+          <label class="form-studio">Телефон
+          <input type="number" name="tel">
+          </label>
+          <label class="form-studio">Пошта
+          <input type="email" name="email" >
+          </label>
+          <label for="comment" >Коментар </label>
+          <textarea name="comment" id="comment" rows="10" placeholder="Введіть текст"></textarea>
 
+          <input type="checkbox" name="policy" id="policy">
+          <label for="policy" >Погоджуюся з розсилкою та приймаю <a href=""> Умови договору </a></label>
+          <button type="submit">Відправити</button>
         </form>
       </div>
     </div>
