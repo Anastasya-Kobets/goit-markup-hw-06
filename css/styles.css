@@ -788,8 +788,9 @@ textarea {
   cursor: pointer;
 }
 .form-input:focus,
+.form-input:focus-visible,
 .form-input:hover {
-  color: #2196f3;
+  outline: 0;
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
@@ -799,7 +800,7 @@ textarea {
 }
 .form-studio-textarea:focus,
 .form-studio-textarea:hover {
-  color: #2196f3;
+  outline: 0;
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
