@@ -515,6 +515,28 @@
             </ul>
           </div>
         </div>
+        <div>
+          <div class="footer-box-icon">
+            <p class="footer-icon-text">Підпишіться на розсилку</p>
+            <form class="footer-flex">
+
+              <input
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                class="footer-input"
+              />
+              <button type="submit" class="modal-btn-footer">
+                Підписатися
+                <svg class="icon-modal-svg-footer" width="24" height="24">
+                  <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                </svg>
+              </button>
+
+
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -530,7 +552,7 @@
           <div class="form-icon">
             <label class="form-studio"
               >Ім'я
-              <input type="text" name="name" class="form-input"/>
+              <input type="text" name="name" class="form-input" />
               <svg class="icon-modal-svg" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-name"></use>
               </svg>
@@ -539,7 +561,7 @@
           <div class="form-icon">
             <label class="form-studio"
               >Телефон
-              <input type="number" name="tel" class="form-input"/>
+              <input type="number" name="tel" class="form-input" />
               <svg class="icon-modal-svg" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-tel"></use>
               </svg>
@@ -549,12 +571,11 @@
             <label class="form-studio"
               >Пошта
 
-              <input type="email" name="email" class="form-input"/>
+              <input type="email" name="email" class="form-input" />
 
               <svg class="icon-modal-svg" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
-
             </label>
           </div>
           <label for="comment" class="form-studio">Коментар </label>
@@ -563,16 +584,24 @@
             id="comment"
             rows="10"
             placeholder="Введіть текст"
-            class="form-studio-textarea "
+            class="form-studio-textarea"
           ></textarea>
           <div class="checkbox-modal">
-            <input type="checkbox" name="policy" id="policy" class="checkbox"/>
-            <label for="policy" class="checkbox-modal-text"
-              >Погоджуюся з розсилкою та приймаю
+            <label for="policy" class="checkbox-modal-text">
+              <input
+                type="checkbox"
+                name="policy"
+                id="policy"
+                class="checkbox"
+              />
+              <span class="icon-checkbox"></span>
+              Погоджуюся з розсилкою та приймаю
               <a href="" class="link-checkbox"> Умови договору </a></label
             >
           </div>
-          <button type="submit" class="modal-btn">Відправити</button>
+          <div class="form">
+            <button type="submit" class="modal-btn">Відправити</button>
+          </div>
         </form>
       </div>
     </div>
