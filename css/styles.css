@@ -43,6 +43,19 @@ ul {
 
 /* Cтудия */
 
+.header {
+  border: 1px solid var(--border-color);
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-nav {
+  display: flex;
+}
+
+.header__nav {
+  display: flex;
+}
+
 .link {
   text-decoration: none;
   color: var(--header-color);
@@ -79,15 +92,8 @@ li {
   margin-right: 10px;
 }
 
-.main-nav {
-  display: flex;
-}
 
-.header {
-  border: 1px solid var(--border-color);
-  margin-right: auto;
-  margin-left: auto;
-}
+
 
 .nav-header {
   font-weight: 500;
